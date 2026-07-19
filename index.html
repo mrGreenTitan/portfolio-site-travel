@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GoVista - авторські тури, гірські маршрути та активні подорожі Україною й світом.">
+    <title>GoVista | Авторські подорожі</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <nav class="navbar" aria-label="Головна навігація">
+        <a class="logo" href="#header" aria-label="GoVista на головну">GoVista</a>
+
+        <button class="menu-btn" type="button" aria-label="Відкрити меню" aria-expanded="false" aria-controls="main-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-links" id="main-menu">
+            <li><a class="active" href="#header">Головна</a></li>
+            <li><a href="#events">Тури</a></li>
+            <li><a href="#explore">Маршрути</a></li>
+            <li><a href="#about">Про нас</a></li>
+            <li><a class="nav-cta" href="#contact">Заявка</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="header">
+        <div class="hero-content">
+            <p class="eyebrow">Авторські подорожі з 2019 року</p>
+            <h1>Відкрийте світ без випадкових маршрутів</h1>
+            <p class="hero-text">GoVista планує активні тури з продуманою логістикою, живими локаціями та супроводом команди, яка знає маршрут до деталей.</p>
+            <div class="hero-actions">
+                <a href="#events" class="abtn">Обрати тур</a>
+                <a href="#contact" class="ghost-btn">Поставити питання</a>
+            </div>
+        </div>
+
+        <div class="hero-panel" aria-label="Короткі переваги">
+            <div>
+                <strong>28</strong>
+                <span>маршрутів</span>
+            </div>
+            <div>
+                <strong>4.9</strong>
+                <span>оцінка гостей</span>
+            </div>
+            <div>
+                <strong>24/7</strong>
+                <span>підтримка</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="events" id="events">
+            <div class="section-heading">
+                <p class="eyebrow">Найближчі виїзди</p>
+                <h2>Тури, які вже можна бронювати</h2>
+            </div>
+
+            <div class="tour-grid">
+                <article class="tour-card">
+                    <img src="img/img1.jpg" alt="Гірський маршрут до базового табору Евересту">
+                    <div class="tour-card-body">
+                        <span class="tour-tag">12 днів</span>
+                        <h3>Базовий табір Евересту</h3>
+                        <p>Трек через Гімалаї з акліматизацією, локальними гідами та краєвидами, які залишаються з вами надовго.</p>
+                        <div class="tour-meta">
+                            <span>від $1 890</span>
+                            <span>вересень 2026</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="tour-card">
+                    <img src="img/img2.jpg" alt="Велосипедисти на мальовничому природному маршруті">
+                    <div class="tour-card-body">
+                        <span class="tour-tag">5 днів</span>
+                        <h3>Велоподорожі Карпатами</h3>
+                        <p>Активний маршрут для тих, хто любить чисте повітря, невеликі групи та вечори в гірських садибах.</p>
+                        <div class="tour-meta">
+                            <span>від 12 400 грн</span>
+                            <span>липень 2026</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="explore" id="explore">
+            <div class="explore-content">
+                <p class="eyebrow">Маршрути з характером</p>
+                <h2>Подорожуйте світом уважно, сміливо і красиво</h2>
+                <p>Ми поєднуємо популярні напрямки з місцями, які рідко потрапляють у стандартні путівники: гірські стежки, локальну кухню, ранкові панорами та простір для власного темпу.</p>
+                <a href="#contact" class="abtn">Запланувати мандрівку</a>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-copy">
+                <p class="eyebrow">Чому GoVista</p>
+                <h2>Ми збираємо тури так, щоб у дорозі було спокійно</h2>
+                <p>Кожен маршрут проходить перевірку командою: транспорт, ночівлі, складність переходів, запасні сценарії та підтримка на зв'язку. Ви отримуєте не просто список локацій, а продуманий досвід.</p>
+                <a href="#contact" class="text-link">Отримати консультацію</a>
+            </div>
+
+            <div class="feature-list">
+                <article>
+                    <span>01</span>
+                    <h3>Малі групи</h3>
+                    <p>До 12 учасників, щоб маршрут не перетворювався на поспіх.</p>
+                </article>
+                <article>
+                    <span>02</span>
+                    <h3>Прозора вартість</h3>
+                    <p>Одразу пояснюємо, що входить у ціну і які витрати додаткові.</p>
+                </article>
+                <article>
+                    <span>03</span>
+                    <h3>Супровід</h3>
+                    <p>Координатор допомагає до старту, під час туру і після повернення.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="gallery" aria-label="Галерея подорожей">
+            <img src="img/img3.jpg" alt="Гірський краєвид під час подорожі">
+            <img src="img/img4.jpg" alt="Туристичний маршрут серед природи">
+            <img src="img/img5.jpg" alt="Панорамний вид на гори">
+            <img src="img/img6.jpg" alt="Мандрівники на природній стежці">
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-copy">
+                <p class="eyebrow">Заявка на тур</p>
+                <h2>Розкажіть, куди хочеться вирушити</h2>
+                <p>Ми підберемо маршрут за вашим темпом, досвідом і датами. Відповідаємо протягом робочого дня.</p>
+            </div>
+
+            <form class="contact-form">
+                <label>
+                    Ім'я
+                    <input type="text" name="name" placeholder="Ваше ім'я" required>
+                </label>
+                <label>
+                    Телефон або email
+                    <input type="text" name="contact" placeholder="+380 або email" required>
+                </label>
+                <label>
+                    Напрямок
+                    <select name="destination" required>
+                        <option value="">Оберіть напрямок</option>
+                        <option value="everest">Базовий табір Евересту</option>
+                        <option value="carpathians">Велоподорожі Карпатами</option>
+                        <option value="custom">Індивідуальний маршрут</option>
+                    </select>
+                </label>
+                <label>
+                    Коментар
+                    <textarea name="message" rows="4" placeholder="Дати, кількість людей, побажання"></textarea>
+                </label>
+                <button class="abtn" type="submit">Надіслати заявку</button>
+                <p class="form-status" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>вул. Шевченка, 15, Львів, 79000, Україна | +380 50 456 78 90 | info@adventureua.com</p>
+        <p>© <span id="year">2026</span> GoVista. Усі права захищено.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
